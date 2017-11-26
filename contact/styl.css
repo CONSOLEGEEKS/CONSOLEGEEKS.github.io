@@ -1,19 +1,28 @@
 body{
-	background-image:url(bg2.jpg);
+	background-image:url(bgg2.jpg);
 
 }
 
 div{
 	
+	margin-left:300px;
+	background-image:url(bgg.jpg);
 	border:7px solid black;
-	color:#808080;
-	margin-right:500px;
+	color:white;
+	margin-right:394px;
+	font-family:impact;
+	
 }
 
 #cg{
+	
+	margin-left:160px;
+	background-image:url(bgg.jpg);
 	border:10px solid black;
-	color:#808080;
+	color:white;
 	font-size:120px;
+	font-family:impact;
+	
 }
 
 a{	
