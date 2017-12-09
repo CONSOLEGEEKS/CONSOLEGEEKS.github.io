@@ -9,30 +9,30 @@ body{
 }*/
 
 div{
-	
-	margin-left:200px;
+
+	margin-left:210px;
 	background-image:url(bgg.jpg);
 	border:7px solid black;
 	color:white;
-	margin-right:272px;
+	margin-right:262px;
 	font-family:impact;
-	
+
 }
 
 #cg{
-	
+
 	margin-left:160px;
 	background-image:url(bgg.jpg);
 	border:10px solid black;
 	color:white;
 	font-size:120px;
 	font-family:impact;
-	
+
 }
 
-.contact{	
+.contact{
 
-	
+
 	color:white;
 	width:200px;
 	font-size:48px;
@@ -40,7 +40,7 @@ div{
 }
 
 .video{
-	margin-left:240px;
+	margin-left:255px;
 	margin-top:100px;
 }
 
