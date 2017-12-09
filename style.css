@@ -51,3 +51,15 @@ div{
 	margin-right:894px;
 	font-family:impact;
 }*/
+
+#cg:hover{
+	color:grey;
+}
+
+.panel:hover{
+	color:grey;
+}
+
+.contact:hover{
+	color:grey;
+}
