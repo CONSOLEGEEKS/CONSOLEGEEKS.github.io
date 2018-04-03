@@ -1,5 +1,6 @@
 body{
-	background-color: #3e844a;
+	/*background-color: #3e844a;*/
+	background-image: url(bg2.jpg);
 }
 
 .dws-menu *{
