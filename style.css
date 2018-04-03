@@ -1,85 +1,68 @@
 body{
-	background-image:url(bgg2.jpg);
+	background-color: #3e844a;
+}
+
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+
+	margin-top: 300px;
+	font-family: 'Oswald', sans-serif;
 
 }
 
-/*.vidosufc2{
-	margin-left:550px;
-	margin-top:10px;
-}*/
-
-div{
-
-	margin-left:535px;
-	background-image:url(bgg.jpg);
-	border:7px solid black;
-	color:white;
-	margin-right:645px;
-	font-family:Comic Sans MS;
-
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
 }
 
-#cga{
-
-	margin-left:500px;
-	background-image:url(bgg.jpg);
-	border:10px solid black;
-	color:white;
-	font-size:120px;
-	font-family:Comic Sans MS;
-
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
 }
 
-.contact{
-
-
-	color:white;
-	width:200px;
-	font-size:48px;
-
+.dws-menu > ul li a{
+	border-radius: 5px;
+	display: block;
+	background: #303030;
+	padding: 13px 35px 15px 40px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
-.video{
-	margin-left:200px;
-	margin-top:100px;
+.dws-menu li a:hover{
+
+	background: #454547;
+	color: #3e844a;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
 }
 
-.video1{
-	margin-left:400px;
-	margin-top:100px;
+.title{
+	color: #303030;
+	text-align: center;
+	margin-top: -240px;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: overline;
+	text-decoration: underline;
 }
 
-/*p{
-	background-image:url(bgg.jpg);
-	border:7px solid black;
-	color:white;
-	margin-right:894px;
-	font-family:impact;
-}*/
-
-#cga:hover{
-	color:grey;
+.frstvideo{
+	border: 5px solid #303030;
 }
 
-.panel:hover{
-	color:grey;
+center{
+	margin-top: 250px;
 }
 
-.contact:hover{
-	color:grey;
-}
-
-.bord1{
-	background-image:url(bgg.jpg);
-}
-
-.opis1{
-	margin-right: 1300px;
-	margin-left: 300px;
-}
-
-.opis2{
-	margin-right: 300px;
-	margin-left: 1300px;
-	margin-top: -197px;
+.titlename{
+	text-decoration: none;
+	color: #303030;
 }
