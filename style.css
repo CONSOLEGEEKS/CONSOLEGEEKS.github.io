@@ -72,29 +72,6 @@ center{
 	color: #303030;
 }
 
-/*.contact a{
-	border-radius: 5px;
-	display: block;
-	background: #303030;
-	padding: 13px 35px 15px 40px;
-	font-size: 14px;
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-}
-
-.contact > ul li a{
-	border-radius: 5px;
-	display: block;
-	background: #303030;
-	padding: 13px 35px 15px 40px;
-	font-size: 14px;
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-*/
 
 .contact ul,
 .contact ol{
@@ -105,14 +82,6 @@ center{
 	display: flex;
 	justify-content: center;
 }
-
-/*.contact li a:hover{
-	background: #454547;
-	color: #3e844a;
-	box-shadow: 1px 5px 10px -5px black;
-	transition: all 0.3s ease;
-}
-*/
 
 .contact > ul li .utuber{
 	font-family: 'Oswald', sans-serif;
