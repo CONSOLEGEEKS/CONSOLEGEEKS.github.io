@@ -1,6 +1,10 @@
 body{
 	/*background-color: #3e844a;*/
-	background-image: url(bg2.jpg);
+	background: url(bg2.jpg) no-repeat;
+    -moz-background-size: 100% 125% /* Firefox 3.6+ */
+    -webkit-background-size: 100% 125%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100% 125%; /* Opera 9.6+ */
+    background-size: 100% 125%;
 }
 
 .dws-menu *{
@@ -66,4 +70,127 @@ center{
 .titlename{
 	text-decoration: none;
 	color: #303030;
+}
+
+/*.contact a{
+	border-radius: 5px;
+	display: block;
+	background: #303030;
+	padding: 13px 35px 15px 40px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.contact > ul li a{
+	border-radius: 5px;
+	display: block;
+	background: #303030;
+	padding: 13px 35px 15px 40px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+*/
+
+.contact ul,
+.contact ol{
+	list-style: none;
+}
+
+.contact ul{
+	display: flex;
+	justify-content: center;
+}
+
+/*.contact li a:hover{
+	background: #454547;
+	color: #3e844a;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+*/
+
+.contact > ul li .utuber{
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+	display: block;
+	background: white;
+	padding: 10px 32px 12px 37px;
+	font-size: 17px;
+	color: #303030;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.7s ease;
+}
+
+.contact > ul li .vk{
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+	display: block;
+	background: #4286f4;
+	padding: 10px 32px 12px 37px;
+	font-size: 17px;
+	color: #303030;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.7s ease;
+}
+
+.contact > ul li .utube{
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+	display: block;
+	background: #e03838;
+	padding: 10px 29px 12px 37px;
+	font-size: 17px;
+	color: #303030;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.7s ease;
+}
+
+.contact > ul li .utube:hover {
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+	display: block;
+	background: white;
+	padding: 10px 29px 12px 37px;
+	font-size: 17px;
+	color: #e03838;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.7s ease;
+}
+
+.contact > ul li .utuber:hover {
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+	display: block;
+	background: #303030;
+	padding: 10px 29px 12px 37px;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.7s ease;
+}
+
+.contact > ul li .vk:hover {
+	font-family: 'Oswald', sans-serif;
+	border-radius: 5px;
+	display: block;
+	background: white;
+	padding: 10px 29px 12px 37px;
+	font-size: 17px;
+	color: #4286f4;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.7s ease;
 }

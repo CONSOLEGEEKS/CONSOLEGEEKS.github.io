@@ -1,5 +1,74 @@
 body{
-	background-image:url(bg2.jpg);
+	background-color: #3e844a;
+}
 
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+
+	margin-top: 300px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+}
+
+.dws-menu > ul li a{
+	border-radius: 5px;
+	display: block;
+	background: #303030;
+	padding: 13px 35px 15px 40px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.dws-menu li a:hover{
+
+	background: #454547;
+	color: #3e844a;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+.title{
+	color: #303030;
+	text-align: center;
+	margin-top: -240px;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: overline;
+	text-decoration: underline;
+}
+
+
+
+
+.titlename{
+	text-decoration: none;
+	color: #303030;
+}
+
+.contact a{
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: #303030;
+	text-transform: uppercase;
+	margin-top: 500px;
+	display: flex;
 }
 
