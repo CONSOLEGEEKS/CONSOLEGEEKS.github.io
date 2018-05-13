@@ -1,15 +1,20 @@
 body{
-	/*background-color: #3e844a;*/
-	background: url(bg2.jpg) no-repeat;
-    -moz-background-size: 100% 125% /* Firefox 3.6+ */
-    -webkit-background-size: 100% 125%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100% 125%; /* Opera 9.6+ */
+	background-color: #3e844a;
+    -moz-background-size: 100% 125%;
+    -webkit-background-size: 100% 125%;
+    -o-background-size: 100% 125%;
     background-size: 100% 125%;
 }
+
+.dws-menu li a{ 
+	transition: all 0.7 ease;
+}
+
 
 .dws-menu *{
 	margin: 0;
 	padding: 0;
+	transition: all 0.3 ease;
 }
 
 header{
@@ -22,11 +27,13 @@ header{
 .dws-menu ul,
 .dws-menu ol{
 	list-style: none;
+	transition: all 0.7 ease;
 }
 
 .dws-menu > ul{
 	display: flex;
 	justify-content: center;
+	transition: all 0.7 ease;
 }
 
 .dws-menu > ul li a{
@@ -38,6 +45,7 @@ header{
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: all 0.7 ease;
 }
 
 .dws-menu li a:hover{
@@ -45,7 +53,7 @@ header{
 	background: #454547;
 	color: #3e844a;
 	box-shadow: 1px 5px 10px -5px black;
-	transition: all 0.3s ease;
+	transition: all 0.7s ease;
 }
 
 .title{
@@ -55,8 +63,14 @@ header{
 	font-size: 60px;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
-	text-decoration: overline;
 	text-decoration: underline;
+	transition: all 0.5 ease;
+	
+}
+
+.title a:hover{
+	color: white;
+	transition-duration: 2s;
 }
 
 .frstvideo{
@@ -88,7 +102,7 @@ center{
 	border-radius: 5px;
 	display: block;
 	background: white;
-	padding: 10px 32px 12px 37px;
+	padding: 10px 29px 12px 37px;
 	font-size: 17px;
 	color: #303030;
 	text-decoration: none;
@@ -101,7 +115,7 @@ center{
 	border-radius: 5px;
 	display: block;
 	background: #4286f4;
-	padding: 10px 32px 12px 37px;
+	padding: 10px 29px 12px 37px;
 	font-size: 17px;
 	color: #303030;
 	text-decoration: none;
